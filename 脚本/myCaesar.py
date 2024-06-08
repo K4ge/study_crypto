@@ -10,7 +10,7 @@ def caesar_decrypt(ciphertext, shift):
             decrypted.append(char)
     return ''.join(decrypted)
 
-input = "synt{5pq1004q-86n5-46q8-o720-oro5on0417r1}"
+input = "afZ_r9VYfScOeO_UL^RWUc"
 
 # 尝试所有可能的位移（从0到25）
 for shift in range(26):
